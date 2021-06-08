@@ -4,11 +4,23 @@ $inpitari-dark: #303540;
 
 body {
     // background: red;
-    background:#FEE8D7;
+    background:#fff;
+    color:$inpitari-dark;
 }
 
 .br_on {
     display: none;
+}
+
+.br_on_12 {
+    display: none;
+}
+
+.navbar {
+    .logo {
+        margin-left:20px;
+        padding-left:20px;
+    }
 }
 
 .banner {
@@ -27,18 +39,75 @@ body {
 }
 
 #main {
-   padding:8vh 0;
+//    padding:8vh 0;
+}
+
+.section01 {
+    background: #FFF9EE;
+    padding:10vh 0;
+    .container {
+        h2.top {
+            font-size: 2em;
+        }
+        table {
+            margin:0 auto;
+            font-size: 1.5em;
+            font-family: "Times New Roman", "YuMincho", "Hiragino Mincho ProN", "Yu Mincho", "MS PMincho", serif;
+            .title {
+                padding:10px;
+                text-decoration: underline;
+            }
+        }
+        h5 {
+            font-size:2.5em;
+        }
+        .intro-text {
+            margin:120px auto;
+            h6 {
+                font-size:1.5em;
+                line-height: 2em;
+                font-family: "Times New Roman", "YuMincho", "Hiragino Mincho ProN", "Yu Mincho", "MS PMincho", serif;
+                span {
+                    font-size:1.5em;
+                    padding: 0 5px;
+                }
+            }
+            h4 {
+                font-family: "Times New Roman", "YuMincho", "Hiragino Mincho ProN", "Yu Mincho", "MS PMincho", serif;
+                line-height: 2em;
+                span {
+                    font-size: 1.5em;
+                }
+            }
+        }
+    }
+    .intro-text-out {
+        padding:0 20px;
+        font-size: 1.5em;
+        line-height: 2em;
+        font-family: "Times New Roman", "YuMincho", "Hiragino Mincho ProN", "Yu Mincho", "MS PMincho", serif;
+        span {
+            font-size:1.5em;
+            color:#BD4929;
+        }
+    }
 }
 
 .sect-middle {
-    padding:4vh 0;
+    padding:10vh 0;
     background:#212531;
-  background: linear-gradient(to right bottom, #fff 50%, #F5F5DC 50%);
+    background: linear-gradient(to right bottom, #fff 50%, #F5F5DC 50%);
+    h3 {
+        font-size:2.5em;
+        font-family: "Times New Roman", "YuMincho", "Hiragino Mincho ProN", "Yu Mincho", "MS PMincho", serif;
+    }
 }
 
 
 .section02 {
-    padding:4vh 0;
+    padding:10vh 0;
+    background:#212531;
+    background: linear-gradient(to left bottom, #FCDBC2 50%, #FCE6D4 50%);
     
     .intro-table {
         table {
@@ -59,18 +128,61 @@ body {
         }
         h3 {
             line-height: 1.5em;
+            text-align:center;
+            margin:80px auto 40px;
+            font-family: "Times New Roman", "YuMincho", "Hiragino Mincho ProN", "Yu Mincho", "MS PMincho", serif;
         }
     }
     .info-01 {
-        .ingredient {
-            margin: 30px auto;
-            h3 {
-                font-size:2em;
-                span {
-                    // margin:30px auto;
+        h3.title {
+            margin:20px auto 0;
+            font-size:2em;
+            text-decoration: underline;
+        }
+        .key-ingredient {
+            // background:$primary-white;
+            padding:20px;
+            margin-top:60px;
+            .ingredient {
+                padding:10px;
+                margin: 10px auto 30px;
+                border:1px solid #d3d3d3;
+                background:white;
+                h3 {
+                    font-size:2em;
                     background: $inpitari-gray;
-                    color:$primary-white;
-                    padding:10px 30px;
+                    span {
+                        // margin:30px auto;
+                        
+                        color:$primary-white;
+                        padding:10px 30px;
+                    }
+                }
+                p {
+                    font-size:1.25em;
+                }
+            }
+        }
+        .text-area1 {
+            font-family: "Times New Roman", "YuMincho", "Hiragino Mincho ProN", "Yu Mincho", "MS PMincho", serif;
+            h3 {
+                margin:40px auto;
+                line-height:2em;
+                span {
+                    font-weight:bold;
+                    font-size:1.25em;
+                }
+            }
+
+            h4 {
+                margin:20px auto;
+                line-height: 3em;
+                span {
+                    font-weight:bold;
+                    font-size:1.25em;
+                }
+                span.main {
+                    color:#BD4929;
                 }
             }
         }
@@ -79,9 +191,17 @@ body {
         h5 {
             font-size:2em;
         }
+        h4.widen-text {
+            margin:80px auto;
+            font-size:2em;
+        }
         .information {
-            h3 {
-                color:$primary-white;
+            h3.strength {
+                margin:100px auto;
+                line-height:1.5em;
+                color:$inpitari-dark;
+                font-size:3em;
+                font-family: "Times New Roman", "YuMincho", "Hiragino Mincho ProN", "Yu Mincho", "MS PMincho", serif;
             }
             .info-inner {
                 h4 {
@@ -91,34 +211,41 @@ body {
                     h5 {
                         font-size:1.5em;
                     }
-                    table {
-                        font-size:1.5em;
-                        // margin:0 auto;
-                        // border:1px solid #9a9a9a;
-                        .r-head {
-                            background: red;
-                            color:$primary-white;
-                            text-align:center;
-                            padding:5px 10px;
-                            border:1px solid #9a9a9a;
-                        }
-                        .r-content {
-                            background:$primary-white;
-                            padding:5px 20px;
-                            border:1px solid #9a9a9a;
+                    .info-table {
+                        margin: 0 auto;
+                        table {
+                            font-size:1.5em;
+                            width:100%;
+                            // margin:0 auto;
+                            // border:1px solid #9a9a9a;
+                            .r-head {
+                                background: red;
+                                color:$primary-white;
+                                text-align:center;
+                                padding:5px 10px;
+                                border:1px solid #9a9a9a;
+                            }
+                            .r-content {
+                                background:$primary-white;
+                                padding:5px 20px;
+                                border:1px solid #9a9a9a;
+                            }
                         }
                     }
                     .highlight-text {
                         color:$primary-white;
+                        width:100%;
                         margin:40px 0;
-                        span {
-                            background:red;
-                            padding:30px;
-                            font-size:1.5em;
-                        }
+                        background:red;
+                        padding: 10px 20px;
+                        font-size:1.5em;
+
                     }
                 }
                 .damage-info2 {
+                    .sect02-table {
+                        margin: 0 auto;
+                    }
                     table {
                         width:100%;
                         .title, .content {
@@ -129,33 +256,48 @@ body {
                         .title {
                             padding:10px 20px;
                             color:white;
+                            font-size:1.5em;
                             background: rgb(255,230,137);
                             background: linear-gradient(135deg, rgba(255,230,137,1) 0%, rgba(242,197,86,1) 100%);
                         }
                         .content {
                             background:$primary-white;
+                            padding:20px;
+                            font-size: 1.5em;
                         }
                     }
                     .highlight-text {
                         background: rgb(255,230,137);
                         background: linear-gradient(135deg, rgba(255,230,137,1) 0%, rgba(242,197,86,1) 100%);
                         color:white;
+                        padding: 10px 20px;
                         font-size:1.5em;
                     }
+                }
+                .before-after {
+                    margin:80px auto;
                 }
                 .bottom-text {
                     text-align: center;
                     margin:80px auto;
+                    background:$primary-white;
+                    padding:20px 30px;
                     h4 {
                         font-size:1.75em;
-                        color:#5e5e5e;
+                        color:$inpitari-dark;
                         margin-top:40px;
+                        line-height: 2em;
+                        span {
+                            font-size:1.5em;
+                        }
                     }
                     p {
                         font-size:1.75em;
+                        // font-family: "Times New Roman", "YuMincho", "Hiragino Mincho ProN", "Yu Mincho", "MS PMincho", serif;
                         span {
                             font-size:1.5em;
                             font-weight:bold;
+                            padding:0px 5px;
                         }
                     }
                 }
@@ -185,15 +327,26 @@ body {
                     padding:20px 80px;
                 }
             }
+            h3 {
+                margin:80px auto;
+                line-height: 2em;
+                text-align: center;
+                font-family: "Times New Roman", "YuMincho", "Hiragino Mincho ProN", "Yu Mincho", "MS PMincho", serif;
+            }
+            .img-area {
+                margin:20px auto;
+            }
         }
         .main-point {
+            margin:120px auto;
             .circle-sp {
                 .circle {
                     position: relative;
                     display: block;
                     margin: 2em 0;
                     background-color: transparent;
-                    color: #222;
+                    color: #fff;
+                    font-weight:bold;
                     text-align: center;
                     &:after {
                         display: block;
@@ -201,7 +354,7 @@ body {
                         width: 100%;
                         height: 0;
                         border-radius: 50%;
-                        background: $primary-white;
+                        background: $inpitari-dark;
                         box-shadow: 1px 3px 3px $inpitari-gray;
                         content: "";
                     }
@@ -227,32 +380,37 @@ body {
                 }
                 p {
                     font-size:1.5em;
-                    color:$primary-white;
-                    background:$inpitari-dark;
+                    color:$inpitari-dark;
+                    // background:
                 }
 
             }
             h4 {
-                font-size:1.5em;
+                font-size:2em;
+                margin:80px auto;
+                font-family: "Times New Roman", "YuMincho", "Hiragino Mincho ProN", "Yu Mincho", "MS PMincho", serif;
             }
-            h3 {
+            h3.middle-text {
+                margin:80px auto;
                 span {
                     font-size: 1.5em;
+                    line-height: 2em;
                     margin-right:10px;
                     padding:10px 10px;
                     color: $primary-white;
                     background:$inpitari-dark;
                 }
             }
-            p {
+            p.bottom-text {
                 font-size:1.5em;
                 line-height: 3em;
                 span {
                     font-weight:bold;
                     font-size:1.25em;
-                    color:$primary-white;
-                    background:$inpitari-dark;
+                    // color:$primary-white;
+                    // background:$inpitari-dark;
                     padding:10px;
+                    font-family: "Times New Roman", "YuMincho", "Hiragino Mincho ProN", "Yu Mincho", "MS PMincho", serif;
                 }
             }
         }
@@ -260,9 +418,7 @@ body {
 }
 
 .section04 {
-    background:url(../images/asia-bg.png) no-repeat;
-    background-position: center;
-    background-size: cover;
+    background: #FFF9EE;
     padding:80px 0;
     .container {
         .intro-table {
@@ -288,13 +444,15 @@ body {
             }
         }
         .sect04-body {
+            padding:5vh 0;
             h5 {
                 font-size:1.75em;
+                font-family: "Times New Roman", "YuMincho", "Hiragino Mincho ProN", "Yu Mincho", "MS PMincho", serif;
+
                 span {
                     font-size:1.25em;
                     margin:0 5px;
-                    color:#66A367;
-                    text-shadow: 1px 1px 3px #000;
+                    text-shadow: 1px 1px 3px #fff;
                 }
             }
             h4 {
@@ -302,17 +460,18 @@ body {
             }
             h3 {
                 font-size:2em;
+                font-family: "Times New Roman", "YuMincho", "Hiragino Mincho ProN", "Yu Mincho", "MS PMincho", serif;
+
                 line-height: 2em;
                 span {
                     font-size:1.25em;
                     padding:0 5px;
-                    color:#BD4929;
-                    text-shadow: 1px 1px 3px #000;
+                    text-shadow: 1px 1px 3px #fff;
                 }
             }
             .centered-text {
-                margin:0 auto;
-                max-width:70%;
+                margin:80px auto;
+                max-width:80%;
                 text-align: center;
                 h2 {
                     span {
@@ -329,37 +488,55 @@ body {
             }
             p {
                 font-size:1.5em;
-            }
-            .product-line-up {
-                h5 {
-                    font-size:1.25em;
-                    span {
-                        font-size:1.5em;
-                        line-height:2em;
-                        background:$inpitari-dark;
-                        color:#fff;
-                        padding:10px 20px;
-                    }
-                }
-                .product-text {
-                    .text-area {
-                        background: white;
-                        // padding:20px 10px;
-                        box-shadow:1px 3px 6px rgba(25,25,25,0.7);
-                        
-                        .product-name {
-                            background:linear-gradient(to right bottom, #707787 50%, $inpitari-dark 50%);
-                            padding: 10px;
-                            h2 {
-                                font-size:1.5em;
-                                color: $primary-white;
-                            }
-                        }
+                font-family: "Times New Roman", "YuMincho", "Hiragino Mincho ProN", "Yu Mincho", "MS PMincho", serif;
 
-                        p {
-                            padding:10px 20px;
-                            font-size:1.25em;
+            }
+        }
+    }
+    .container-fluid {
+        .product-line-up {
+            .salon-area {
+                background:linear-gradient(to right bottom,#D2E1DB 50%, #F6F9F8 50%);
+            }
+
+            .moist-area {
+                background:linear-gradient(to right bottom,#FCDBC2 50%, #FCE6D4 50%);
+            }
+            h5 {
+                font-size:1.25em;
+                span {
+                    font-size:1.5em;
+                    line-height:2em;
+                    background:$inpitari-dark;
+                    color:#fff;
+                    padding:10px 20px;
+                }
+            }
+            .product-text {
+                .text-area {
+                    // background: white;
+                    font-size:2em;
+                    padding:20px 10px;
+                    // box-shadow:1px 3px 6px rgba(25,25,25,0.7);
+                    
+                    .product-name {
+                        // background:linear-gradient(to right bottom,$inpitari-dark 50%, #707787 50%);
+                        // padding: 10px;
+                        h2.salon {
+                            font-size:1.5em;
+                            color:#66A367;
+                            
                         }
+                        h2.moist {
+                            font-size:1.5em;
+                            color:#BD4929;
+                            // text-shadow: 1px 3px 6px #BD4929;
+                        }
+                    }
+
+                    p {
+                        padding:10px 20px;
+                        font-size:1.25em;
                     }
                 }
             }
@@ -372,17 +549,335 @@ body {
     background:#fff;
     padding:5vh 0;
     .sect06-body {
-        width:80%;
+        width:90%;
         margin:0 auto;
         h2 {
             font-size:2.5em;
             line-height:2em;
+            font-family: "Times New Roman", "YuMincho", "Hiragino Mincho ProN", "Yu Mincho", "MS PMincho", serif;
+
             // margin-top:20px;
         }
     }
 }
 
+.section06 {
+    padding:8vh 0;
+    background:#EBF5F1;
+    .to-links {
+        p {
+            padding:40px 20px;
+            font-size:2em;
+            a {
+                color: white;
+                text-decoration: none;
+            }
+            a:hover {
+                font-weight:bold;
+                text-decoration: underline;
+            }
+        }
+        .customer {
+            background: $inpitari-dark;
+        }
+        .salon {
+            background: $inpitari-gray;
+        }
+    }
+}
 
+.footer {
+    padding-top: 20px;
+    font-size: 0.9em;
+    ul {
+        list-style-type: none;
+        padding: 0;
+        li {
+            display: inline-block;
+            margin-right:10px;
+            padding-right:10px;
+            a {
+                text-decoration: none;
+                color: $inpitari-dark;
+                
+            }
+        }
+    }
+}
+
+
+@media (max-width:1200px) {
+
+}
+@media (max-width:576px) {
+    .navbar {
+        .logo {
+            margin-left:5px;
+            padding-left:5px;
+        }
+    }
+
+    .br_on_12 {
+        display: block;
+    }
+
+    .section01 {
+        .container {
+            h2.top {
+                font-size:1.25em;
+            }
+            table {
+                
+                .title {
+                 p {
+                     font-size:14px;
+                 }   
+                }
+                p.t-a {
+                    font-size:14px;
+                }
+            }
+            h5 {
+                font-size:1.25em;
+            }
+            .intro-text {
+                h6 {
+                    font-size:1em;
+                    span {
+                        font-size:1.25em;
+                    }
+                }
+                h4 {
+                    font-size:1.1em;
+                }
+            }
+        }
+        .intro-text-out {
+            font-size:1.25em;
+        }
+    }
+
+    .sect-middle {
+        h3 {
+            font-size:1.75em;
+        }
+    }
+
+    .section02 {
+        .intro-table {
+            table {
+                .left {
+                    font-size:1em;
+                    padding:20px 10px;
+                }
+                .right {
+                    padding:20px 10px;
+                    font-size:1em;
+                }
+            }
+            h3 {
+                font-size:1.5em;
+                
+            }
+        }
+        .info-01 {
+            h3.title {
+                font-size: 1.75em;
+            }
+            .text-area1 {
+                h3 {
+                    font-size:1.25em;
+                }
+                h4 {
+                    font-size:1.25em;
+                }
+            }
+        }
+        .info-02 {
+            h5 {
+                font-size: 1.5em;
+            }
+            h4.widen-text {
+                font-size:1.5em;
+            }
+            .information {
+                h3.strength {
+                    font-size:1.5em;
+                }
+                .info-inner {
+                    .damage-info {
+                        .info-table {
+                            table {
+                                font-size:1em;
+                            }
+                        }
+                    }
+                    .damage-info2 {
+                        .info-table {
+                            table {
+                                .title {
+                                    font-size:1em;
+                                }
+                            }
+                        }
+                    }
+                    .bottom-text {
+                        h4 {
+                            font-size:1em;
+                        }
+                        p {
+                            font-size:1em;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .section03 {
+        .container {
+            .intro-table {
+                table {
+                    .left {
+                        font-size:1em;
+                        padding:20px 10px;
+                    }
+                    .right {
+                        font-size:1em;
+                        padding:20px 10px;
+                    }
+                }
+            }
+            .main-point {
+                .circle-sp {
+                    .circle__content {
+                        font-size:1.5em;
+                    }
+                    p {
+                        font-size:1.25em;
+                    }
+                }
+                h4 {
+                    font-size:1.25em;
+                }
+                h3.middle-text {
+                    font-size:1.25em;
+                    line-height: 2em;
+                    span {
+                        font-size:0.9em;
+                    }
+                }
+                p.bottom-text {
+                    font-size:1em;
+                }
+            }
+        }
+    }
+
+    .section04 {
+        .container {
+            .intro-table {
+                table {
+                    .left {
+                        font-size:1em;
+                        padding:20px 10px;
+                    }
+                    .right {
+                        font-size:1em;
+                        padding:20px 10px;
+                    }
+                }
+            }
+            .sect04-body {
+                padding:3vh 0;
+                h5 {
+                    font-size:1.25em;
+                }
+                h4 {
+                    font-size:1.75em;
+                }
+                h3 {
+                    font-size:1.25em;
+                }
+                .centered-text {
+                    max-width:100%;
+                }
+            }
+        }
+        .container-fluid {
+            .product-line-up {
+                .product-text {
+                    .text-area {
+                        .product-name {
+                            h2.salon {
+                                font-size:1.25em;
+                            }
+                            h2.moist {
+                                font-size:1.25em;
+                            }
+                        }
+                    }
+                }
+                .text-area {
+                    font-size:0.9em;
+                    text-align:center;
+                }
+            }
+        }
+    }
+
+    .section05 {
+        .sect06-body {
+            h2 {
+                font-size:1.1em;
+            }
+        }
+    }
+
+    .section06 {
+        .to-links {
+            p {
+                font-size:1.5em;
+            }
+        }
+    }
+
+    .footer {
+        padding-top: 20px;
+        font-size: 0.8em;
+        text-align:center;
+        ul {
+            list-style-type: none;
+            padding: 0;
+            li {
+                display: block;
+                margin-right:10px;
+                padding-right:10px;
+                a {
+                    text-decoration: none;
+                    color: $inpitari-dark;
+                    
+                }
+            }
+        }
+    }
+}
+
+// iPhone 12 Pro Max
+@media only screen and (device-width: 428px) and (device-height: 926px) and (-webkit-device-pixel-ratio: 3) {
+    .section01 {
+        .container {
+           
+        }
+    }
+
+}
+
+
+// iPhone 11
+
+
+// iPhone 6,7,8
 @media (max-width: 375px) {
 
     .br_on {
