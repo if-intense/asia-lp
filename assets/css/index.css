@@ -1,0 +1,290 @@
+body {
+  background: #FEE8D7; }
+
+.br_on {
+  display: none; }
+
+.banner {
+  background-image: url("../images/top.png") no-repeat;
+  background-position: center;
+  background-size: cover; }
+  .banner .container {
+    padding: 10%;
+    color: white; }
+    .banner .container p {
+      font-size: 2em; }
+
+#main {
+  padding: 8vh 0; }
+
+.sect-middle {
+  padding: 4vh 0;
+  background: #212531;
+  background: linear-gradient(to right bottom, #fff 50%, #F5F5DC 50%); }
+
+.section02 {
+  padding: 4vh 0; }
+  .section02 .intro-table table {
+    box-shadow: 1px 3px 3px #9a9a9a;
+    margin-bottom: 2vh; }
+    .section02 .intro-table table .left {
+      background: linear-gradient(to right bottom, #F8E4B0 50%, #F4CB60 50%);
+      color: #fff;
+      padding: 20px;
+      font-size: 2em; }
+    .section02 .intro-table table .right {
+      background: #fff;
+      font-size: 2em;
+      padding: 20px 80px; }
+  .section02 .intro-table h3 {
+    line-height: 1.5em; }
+  .section02 .info-01 .ingredient {
+    margin: 30px auto; }
+    .section02 .info-01 .ingredient h3 {
+      font-size: 2em; }
+      .section02 .info-01 .ingredient h3 span {
+        background: #5e5e5e;
+        color: #fff;
+        padding: 10px 30px; }
+  .section02 .info-02 h5 {
+    font-size: 2em; }
+  .section02 .info-02 .information h3 {
+    color: #fff; }
+  .section02 .info-02 .information .info-inner h4 {
+    color: aqua; }
+  .section02 .info-02 .information .info-inner .damage-info h5 {
+    font-size: 1.5em; }
+  .section02 .info-02 .information .info-inner .damage-info table {
+    font-size: 1.5em; }
+    .section02 .info-02 .information .info-inner .damage-info table .r-head {
+      background: red;
+      color: #fff;
+      text-align: center;
+      padding: 5px 10px;
+      border: 1px solid #9a9a9a; }
+    .section02 .info-02 .information .info-inner .damage-info table .r-content {
+      background: #fff;
+      padding: 5px 20px;
+      border: 1px solid #9a9a9a; }
+  .section02 .info-02 .information .info-inner .damage-info .highlight-text {
+    color: #fff;
+    margin: 40px 0; }
+    .section02 .info-02 .information .info-inner .damage-info .highlight-text span {
+      background: red;
+      padding: 30px;
+      font-size: 1.5em; }
+  .section02 .info-02 .information .info-inner .damage-info2 table {
+    width: 100%; }
+    .section02 .info-02 .information .info-inner .damage-info2 table .title, .section02 .info-02 .information .info-inner .damage-info2 table .content {
+      border: 1px solid #9a9a9a;
+      font-size: 1.25em;
+      text-align: center; }
+    .section02 .info-02 .information .info-inner .damage-info2 table .title {
+      padding: 10px 20px;
+      color: white;
+      background: #ffe689;
+      background: linear-gradient(135deg, #ffe689 0%, #f2c556 100%); }
+    .section02 .info-02 .information .info-inner .damage-info2 table .content {
+      background: #fff; }
+  .section02 .info-02 .information .info-inner .damage-info2 .highlight-text {
+    background: #ffe689;
+    background: linear-gradient(135deg, #ffe689 0%, #f2c556 100%);
+    color: white;
+    font-size: 1.5em; }
+  .section02 .info-02 .information .info-inner .bottom-text {
+    text-align: center;
+    margin: 80px auto; }
+    .section02 .info-02 .information .info-inner .bottom-text h4 {
+      font-size: 1.75em;
+      color: #5e5e5e;
+      margin-top: 40px; }
+    .section02 .info-02 .information .info-inner .bottom-text p {
+      font-size: 1.75em; }
+      .section02 .info-02 .information .info-inner .bottom-text p span {
+        font-size: 1.5em;
+        font-weight: bold; }
+
+.section03 {
+  background: #D2E1DB;
+  background: linear-gradient(to right bottom, #ebf5f1 50%, #D2E1DB 50%);
+  padding: 6vh 0; }
+  .section03 .container .intro-table table {
+    box-shadow: 1px 3px 3px #9a9a9a;
+    margin-bottom: 2vh; }
+    .section03 .container .intro-table table .left {
+      background: linear-gradient(to right bottom, #F8E4B0 50%, #F4CB60 50%);
+      color: #fff;
+      padding: 20px;
+      font-size: 2em; }
+    .section03 .container .intro-table table .right {
+      background: #fff;
+      font-size: 2em;
+      padding: 20px 80px; }
+  .section03 .container .main-point .circle-sp .circle {
+    position: relative;
+    display: block;
+    margin: 2em 0;
+    background-color: transparent;
+    color: #222;
+    text-align: center; }
+    .section03 .container .main-point .circle-sp .circle:after {
+      display: block;
+      padding-bottom: 100%;
+      width: 100%;
+      height: 0;
+      border-radius: 50%;
+      background: #fff;
+      box-shadow: 1px 3px 3px #5e5e5e;
+      content: ""; }
+  .section03 .container .main-point .circle-sp .circle__inner {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%; }
+  .section03 .container .main-point .circle-sp .circle__wrapper {
+    display: table;
+    width: 100%;
+    height: 100%; }
+  .section03 .container .main-point .circle-sp .circle__content {
+    display: table-cell;
+    padding: 1em;
+    font-size: 2em;
+    vertical-align: middle; }
+  .section03 .container .main-point .circle-sp p {
+    font-size: 1.5em;
+    color: #fff;
+    background: #303540; }
+  .section03 .container .main-point h4 {
+    font-size: 1.5em; }
+  .section03 .container .main-point h3 span {
+    font-size: 1.5em;
+    margin-right: 10px;
+    padding: 10px 10px;
+    color: #fff;
+    background: #303540; }
+  .section03 .container .main-point p {
+    font-size: 1.5em;
+    line-height: 3em; }
+    .section03 .container .main-point p span {
+      font-weight: bold;
+      font-size: 1.25em;
+      color: #fff;
+      background: #303540;
+      padding: 10px; }
+
+.section04 {
+  background: url(../images/asia-bg.png) no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding: 80px 0; }
+  .section04 .container .intro-table {
+    margin-bottom: 4vh; }
+    .section04 .container .intro-table table {
+      box-shadow: 1px 3px 3px #9a9a9a;
+      margin-bottom: 2vh; }
+      .section04 .container .intro-table table .left {
+        background: linear-gradient(to right bottom, #F8E4B0 50%, #F4CB60 50%);
+        padding: 20px;
+        font-size: 2em; }
+      .section04 .container .intro-table table .right {
+        background: #fff;
+        font-size: 2em;
+        padding: 20px 80px; }
+    .section04 .container .intro-table h3 {
+      text-align: center;
+      margin-top: 4vh; }
+  .section04 .container .sect04-body h5 {
+    font-size: 1.75em; }
+    .section04 .container .sect04-body h5 span {
+      font-size: 1.25em;
+      margin: 0 5px;
+      color: #66A367;
+      text-shadow: 1px 1px 3px #000; }
+  .section04 .container .sect04-body h4 {
+    font-size: 3em; }
+  .section04 .container .sect04-body h3 {
+    font-size: 2em;
+    line-height: 2em; }
+    .section04 .container .sect04-body h3 span {
+      font-size: 1.25em;
+      padding: 0 5px;
+      color: #BD4929;
+      text-shadow: 1px 1px 3px #000; }
+  .section04 .container .sect04-body .centered-text {
+    margin: 0 auto;
+    max-width: 70%;
+    text-align: center; }
+    .section04 .container .sect04-body .centered-text h2 span {
+      font-size: 0.8em;
+      padding: 0 5px; }
+    .section04 .container .sect04-body .centered-text h2 em {
+      font-style: normal;
+      background: #303540;
+      color: #fff;
+      line-height: 2em; }
+  .section04 .container .sect04-body p {
+    font-size: 1.5em; }
+  .section04 .container .sect04-body .product-line-up h5 {
+    font-size: 1.25em; }
+    .section04 .container .sect04-body .product-line-up h5 span {
+      font-size: 1.5em;
+      line-height: 2em;
+      background: #303540;
+      color: #fff;
+      padding: 10px 20px; }
+  .section04 .container .sect04-body .product-line-up .product-text .text-area {
+    background: white;
+    box-shadow: 1px 3px 6px rgba(25, 25, 25, 0.7); }
+    .section04 .container .sect04-body .product-line-up .product-text .text-area .product-name {
+      background: linear-gradient(to right bottom, #707787 50%, #303540 50%);
+      padding: 10px; }
+      .section04 .container .sect04-body .product-line-up .product-text .text-area .product-name h2 {
+        font-size: 1.5em;
+        color: #fff; }
+    .section04 .container .sect04-body .product-line-up .product-text .text-area p {
+      padding: 10px 20px;
+      font-size: 1.25em; }
+
+.section05 {
+  background: #fff;
+  padding: 5vh 0; }
+  .section05 .sect06-body {
+    width: 80%;
+    margin: 0 auto; }
+    .section05 .sect06-body h2 {
+      font-size: 2.5em;
+      line-height: 2em; }
+
+@media (max-width: 375px) {
+  .br_on {
+    display: block; }
+
+  .section05 .sect06-body {
+    width: 100%; }
+    .section05 .sect06-body ul.statement li {
+      font-size: 1em; }
+    .section05 .sect06-body h2 {
+      font-size: 2em; }
+
+  .section04 .container .intro-table table .right {
+    font-size: 1em;
+    padding: 20px 10px; }
+  .section04 .container .intro-table table .left {
+    font-size: 1em;
+    padding: 20px 10px; }
+  .section04 .container .product-line-up .product-text .text-area h2 {
+    font-size: 1.25em; }
+  .section04 .container .product-line-up .product-text .text-area p {
+    font-size: 0.8em; }
+
+  .section03 .container .intro-table table .right {
+    font-size: 1em;
+    padding: 20px 10px;
+    width: 70%; }
+  .section03 .container .intro-table table .left {
+    font-size: 1em;
+    padding: 20px 10px; } }
+
+/*# sourceMappingURL=index.css.map */
