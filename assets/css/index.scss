@@ -16,6 +16,10 @@ body {
     display: none;
 }
 
+.br_on_12_1 {
+    display: none;
+}
+
 .br_on_1024 {
     display: none;
 }
@@ -720,9 +724,9 @@ body {
 }
 
 @media (max-width:768px) {
-    // .br_on_1024 {
-    //     display: none;
-    // }
+    .br_on_1024 {
+        display: none;
+    }
 
     .br_on_768 {
         display: block;
@@ -857,16 +861,16 @@ body {
         }
     }
 
-    .br_on_12 {
-        display: block;
-    }
-
     .br_on_1024 {
         display: none;
     }
 
     .br_on_768 {
         display: none;
+    }
+
+    .br_on_12 {
+        display: block;
     }
 
     .br_on_576 {
@@ -1117,8 +1121,18 @@ body {
 
 // iPhone 12 Pro Max
 @media only screen and (device-width: 428px) and (device-height: 926px) and (-webkit-device-pixel-ratio: 3) {
+    
+    .br_on_12 {
+        display: none;
+    }
+
+    .br_on_12_1 {
+        display: block;
+    }
+    
     .section01 {
         .container {
+
            
         }
     }

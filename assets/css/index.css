@@ -8,6 +8,9 @@ body {
 .br_on_12 {
   display: none; }
 
+.br_on_12_1 {
+  display: none; }
+
 .br_on_1024 {
   display: none; }
 
@@ -462,6 +465,9 @@ body {
   .section02 .info-02 .information .info-inner .damage-info .info-table table .r-content {
     font-size: 0.9em; } }
 @media (max-width: 768px) {
+  .br_on_1024 {
+    display: none; }
+
   .br_on_768 {
     display: block; }
 
@@ -520,14 +526,14 @@ body {
     margin-left: 5px;
     padding-left: 5px; }
 
-  .br_on_12 {
-    display: block; }
-
   .br_on_1024 {
     display: none; }
 
   .br_on_768 {
     display: none; }
+
+  .br_on_12 {
+    display: block; }
 
   .br_on_576 {
     display: block; }
@@ -645,6 +651,12 @@ body {
         .footer ul li a {
           text-decoration: none;
           color: #303540; } }
+@media only screen and (device-width: 428px) and (device-height: 926px) and (-webkit-device-pixel-ratio: 3) {
+  .br_on_12 {
+    display: none; }
+
+  .br_on_12_1 {
+    display: block; } }
 @media (max-width: 375px) {
   .br_on {
     display: block; }
