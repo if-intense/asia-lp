@@ -762,6 +762,18 @@ body {
                     }
                 }
             }
+            .comp {
+                .ingredient {
+                    h3 {
+                        font-size:1.24em;
+                        padding:10px 0;
+                    }
+                    p {
+                        font-size: 1em;
+                    }
+                }
+            }
+            
         }
         .info-02 {
             h4.widen-text {
@@ -922,13 +934,14 @@ body {
     .section02 {
         .intro-table {
             table {
+                width: 100%;
                 .left {
-                    font-size:0.9em;
+                    font-size:1em;
                     padding:20px 10px;
                 }
                 .right {
                     padding:20px 5px;
-                    font-size:0.9em;
+                    font-size:1em;
                 }
             }
             h3 {
@@ -979,7 +992,7 @@ body {
                     }
                     .bottom-text {
                         h4 {
-                            font-size:1em;
+                            font-size:0.9em;
                         }
                         p {
                             font-size:1em;
@@ -994,12 +1007,13 @@ body {
         .container {
             .intro-table {
                 table {
+                    width:100%;
                     .left {
-                        font-size:0.9em;
+                        font-size:1em;
                         padding:20px 10px;
                     }
                     .right {
-                        font-size:0.9em;
+                        font-size:1em;
                         padding:20px 5px;
                     }
                 }
@@ -1034,12 +1048,13 @@ body {
         .container {
             .intro-table {
                 table {
+                    width: 100%;
                     .left {
-                        font-size:0.9em;
+                        font-size:1em;
                         padding:20px 10px;
                     }
                     .right {
-                        font-size:0.9em;
+                        font-size:1em;
                         padding:20px 5px;
                     }
                 }
