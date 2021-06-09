@@ -16,6 +16,22 @@ body {
     display: none;
 }
 
+.br_on_1024 {
+    display: none;
+}
+
+.br_on_768 {
+    display: none;
+}
+
+.br_on_375 {
+    display: none;
+}
+
+.br_on_576 {
+    display:none;
+}
+
 .navbar {
     .logo {
         margin-left:20px;
@@ -48,6 +64,9 @@ body {
     .container {
         h2.top {
             font-size: 2em;
+        }
+        h2.top.intro {
+            line-height: 2em;
         }
         table {
             margin:0 auto;
@@ -428,7 +447,7 @@ body {
                 margin-bottom:2vh;
                 .left {
                     background: linear-gradient(to right bottom, #F8E4B0 50%, #F4CB60 50%);
-                    // color:#fff;
+                    color:#fff;
                     padding:20px;
                     font-size:2em;
                 }
@@ -608,6 +627,198 @@ body {
 
 @media (max-width:1200px) {
 
+    .section03 {
+        .container {
+            .main-point {
+                p.bottom-text {
+                    span {
+                        font-size:1.15em;
+                    }
+                }
+            }
+        }
+    }
+    .section05 {
+        .sect06-body {
+            h2 {
+                font-size:2em;
+            }
+        }
+    }
+}
+
+@media (max-width:1024px) {
+
+    .br_on_1024 {
+        display: block;
+    }
+    .section01 {
+        .container {
+            .intro-text {
+                h4 {
+                    font-size:1.7em;
+                }
+            }
+            table {
+                
+                    font-size:1.25em;
+                
+            }
+        }
+    }
+
+    .section02 {
+        .info-02 {
+            .information {
+                .info-inner {
+                    .damage-info {
+                        .info-table {
+                            table {
+                                .r-content {
+                                    font-size:0.9em;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width:992px) {
+    
+}
+
+@media (max-width:768px) {
+    // .br_on_1024 {
+    //     display: none;
+    // }
+
+    .br_on_768 {
+        display: block;
+    }
+    .section01 {
+        .container {
+            h5 {
+                font-size:2em;
+            }
+            .intro-text {
+                h6 {
+                    span {
+                        font-size:1em;
+                    }
+                }
+                h4 {
+                    font-size:1.5em;
+                }
+            }
+        }
+    }
+
+    .section02 {
+        .info-01 {
+            .key-ingredient {
+                .ingredient {
+                    h3 {
+                        font-size:1.24em;
+                        padding:10px 0;
+                    }
+                    p {
+                        font-size: 1em;
+                    }
+                }
+            }
+        }
+        .info-02 {
+            h4.widen-text {
+                font-size:1.75em;
+            }
+            .information {
+                h3.strength {
+                    font-size:2.5em;
+                }
+                .info-inner {
+                    .bottom-text {
+                        h4 {
+                            font-size:1.5em;
+                        }
+                        p {
+                            font-size:1.25em;
+                            span {
+                                font-size:1.5em;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .section03 {
+        .container {
+            .intro-table {
+                table {
+                    .right {
+                        padding:20px;
+                    }
+                }
+            }
+            .main-point {
+                .circle-sp {
+                    .circle__content {
+                        font-size:1.25em;
+                    }
+                    p {
+                        font-size: 1em;
+                    }
+                }
+                h4 {
+                    font-size:1.5em;
+                }
+                h3.middle-text {
+                    font-size: 1.4em;
+                    line-height: 2em;
+                    span {
+                        font-size:1.25em;
+                    }
+                }
+                p.bottom-text {
+                    span {
+                        font-size:1em;
+                    }
+                }
+            }
+        }
+    }
+    
+    .section04 {
+        .container {
+            .intro-table {
+                table {
+                    .right {
+                        padding:20px;
+                    }
+                }
+            }
+            .sect04-body {
+                h3 {
+                    font-size:1.5em;
+                }
+            }
+        }
+    }
+
+    .section06 {
+        padding:8vh 0;
+        background:#EBF5F1;
+        .to-links {
+            p {
+                padding:40px 20px;
+                font-size:1.5em;
+            }
+        }
+    }
 }
 @media (max-width:576px) {
     .navbar {
@@ -618,6 +829,18 @@ body {
     }
 
     .br_on_12 {
+        display: block;
+    }
+
+    .br_on_1024 {
+        display: none;
+    }
+
+    .br_on_768 {
+        display: none;
+    }
+
+    .br_on_576 {
         display: block;
     }
 
@@ -653,13 +876,13 @@ body {
             }
         }
         .intro-text-out {
-            font-size:1.25em;
+            font-size:1em;
         }
     }
 
     .sect-middle {
         h3 {
-            font-size:1.75em;
+            font-size:1.5em;
         }
     }
 
@@ -884,6 +1107,14 @@ body {
         display: block;
     }
 
+    .br_on_375 {
+        display: block;
+    }
+
+    .br_on_576 {
+        display: none;
+    }
+
     .section05 {
         .sect06-body {
             width:100%;
@@ -893,7 +1124,7 @@ body {
                 }
             }
             h2 {
-                font-size:2em;
+                font-size:1em;
             }
         }
     }
@@ -924,6 +1155,32 @@ body {
                         }
                     }
                 }
+                h5 {
+                    font-size: 1em;
+                }
+            }
+            .sect04-body {
+                h5 {
+                    font-size: 0.9em;
+                }
+                h3 {
+                    font-size: 1em;
+                }
+                p {
+                    font-size:1.25em;
+                }
+            }
+        }
+        .container-fluid {
+            .product-line-up {
+                h5 {
+                    span {
+                        font-size: 1em;
+                    }
+                }
+                p {
+                    font-size:0.9em;
+                }
             }
         }
     }
@@ -942,7 +1199,69 @@ body {
                     }
                 }
             }
-            
+            .main-point {
+                p.bottom-text {
+                    span {
+                        font-size:0.9em;
+                    }
+                }
+                h4 {
+                    font-size: 1em;
+                }
+            }
+        }
+    }
+
+    .section02 {
+        .info-01 {
+            h3.title {
+                font-size:1.25em;
+            }
+            .text-area1 {
+                h4 {
+                    font-size:1em;
+                }
+            }
+        }
+        .info-02 {
+            h4.widen-text {
+                font-size:1.25em;
+            }
+            .information {
+                h3.strength {
+                    font-size: 1.25em;
+                }
+            }
+        }
+    }
+
+    .sect-middle {
+        h3 {
+            font-size:1.25em;
+        }
+    }
+
+    .section01 {
+        .container {
+            h2.top {
+                font-size:1em;
+            }
+            table {
+                p.t-a {
+                    font-size:12px;
+                }
+            }
+            h5 {
+                font-size:1em;
+            }
+            .intro-text {
+                h4 {
+                    font-size:0.9em;
+                }
+            }
+        }
+        .intro-text-out {
+            font-size:0.9em;
         }
     }
 }
