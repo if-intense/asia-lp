@@ -122,6 +122,26 @@ body {
           padding: 10px 30px; }
       .section02 .info-01 .key-ingredient .ingredient p {
         font-size: 1.25em; }
+  .section02 .info-01 .comp {
+    padding: 20px;
+    margin-bottom: 60px; }
+    .section02 .info-01 .comp .ingredient {
+      padding: 10px;
+      margin: 10px auto 30px;
+      border: 1px solid #d3d3d3;
+      background: white; }
+      .section02 .info-01 .comp .ingredient h3 {
+        font-size: 2em;
+        background: #5e5e5e;
+        background: #F4CB60; }
+        .section02 .info-01 .comp .ingredient h3 span {
+          color: #fff;
+          padding: 10px 30px; }
+      .section02 .info-01 .comp .ingredient p {
+        font-size: 1.25em; }
+    .section02 .info-01 .comp p.pt {
+      font-size: 1.5em;
+      padding: 0; }
   .section02 .info-01 .text-area1 {
     font-family: "Times New Roman", "YuMincho", "Hiragino Mincho ProN", "Yu Mincho", "MS PMincho", serif; }
     .section02 .info-01 .text-area1 h3 {
