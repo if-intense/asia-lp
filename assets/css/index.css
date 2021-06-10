@@ -112,7 +112,7 @@ body {
 }
 
 .section01 .container .voices .stylists {
-  background: url(../images/white-concrete-wall.jpg) no-repeat;
+  background: whitesmoke;
   -webkit-box-shadow: 1px 3px 3px #303540;
           box-shadow: 1px 3px 3px #303540;
   margin: 4vh auto;
@@ -120,7 +120,6 @@ body {
 
 .section01 .container .voices .stylists h5 {
   font-size: 1.25em;
-  font-style: italic;
 }
 
 .section01 .container .voices .stylists p {
@@ -507,6 +506,7 @@ body {
 
 .section03 .container .main-point h3.middle-text {
   margin: 80px auto;
+  font-weight: normal;
 }
 
 .section03 .container .main-point h3.middle-text span {
@@ -516,6 +516,7 @@ body {
   padding: 10px 10px;
   color: #fff;
   background: #303540;
+  font-weight: bold;
 }
 
 .section03 .container .main-point p.bottom-text {
@@ -949,8 +950,12 @@ body {
   .section02 .info-02 .information .info-inner .damage-info .info-table table {
     font-size: 1em;
   }
-  .section02 .info-02 .information .info-inner .damage-info2 .info-table table .title {
+  .section02 .info-02 .information .info-inner .damage-info2 table .title {
     font-size: 1em;
+  }
+  .section02 .info-02 .information .info-inner .damage-info2 table .content {
+    font-size: 1em;
+    padding: 10px 20px;
   }
   .section02 .info-02 .information .info-inner .bottom-text h4 {
     font-size: 0.9em;
@@ -983,7 +988,7 @@ body {
     line-height: 2em;
   }
   .section03 .container .main-point h3.middle-text span {
-    font-size: 0.9em;
+    font-size: 1em;
   }
   .section03 .container .main-point p.bottom-text {
     font-size: 1em;

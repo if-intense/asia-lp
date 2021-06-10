@@ -110,12 +110,12 @@ body {
         .voices {
             margin:6vh auto;
             .stylists {
-                background:url(../images/white-concrete-wall.jpg) no-repeat;
+                background:whitesmoke;
                 box-shadow: 1px 3px 3px $inpitari-dark;
                 margin:4vh auto;
                 h5 {
                     font-size:1.25em;
-                    font-style: italic;
+                    // font-style: italic;
                 }
                 p {
                     font-size:1.75em;
@@ -469,6 +469,7 @@ body {
             }
             h3.middle-text {
                 margin:80px auto;
+                font-weight:normal;
                 span {
                     font-size: 1.5em;
                     line-height: 2em;
@@ -476,6 +477,7 @@ body {
                     padding:10px 10px;
                     color: $primary-white;
                     background:$inpitari-dark;
+                    font-weight:bold;
                 }
             }
             p.bottom-text {
@@ -1104,12 +1106,15 @@ body {
                         }
                     }
                     .damage-info2 {
-                        .info-table {
-                            table {
-                                .title {
-                                    font-size:1em;
-                                }
+                        table {
+                            .title {
+                                font-size:1em;
                             }
+                            .content {
+                                font-size:1em;
+                                padding:10px 20px;
+                            }
+                            
                         }
                     }
                     .bottom-text {
@@ -1156,7 +1161,7 @@ body {
                     font-size:1.25em;
                     line-height: 2em;
                     span {
-                        font-size:0.9em;
+                        font-size:1em;
                     }
                 }
                 p.bottom-text {
