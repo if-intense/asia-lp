@@ -49,6 +49,8 @@ video {
   padding: 10vh 0; }
   .section01 .container h2.top {
     font-size: 2em; }
+    .section01 .container h2.top span {
+      font-size: 1.35em; }
   .section01 .container h2.top.intro {
     line-height: 2em; }
   .section01 .container h2.top.intro-2 {
