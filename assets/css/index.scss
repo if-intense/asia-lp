@@ -8,6 +8,11 @@ body {
     color:$inpitari-dark;
 }
 
+video {
+    width:100% !important;
+    height:auto !important;
+}
+
 .plus {
     font-size:2.5em;
 }
@@ -76,6 +81,10 @@ body {
         h2.top.intro {
             line-height: 2em;
         }
+        h2.top.intro-2 {
+            font-size:2.1em;
+            line-height: 1.5em;
+        }
         table {
             margin:0 auto;
             font-size: 1.5em;
@@ -109,6 +118,10 @@ body {
         }
         .voices {
             margin:6vh auto;
+            h4 {
+                text-transform: uppercase;
+                text-decoration: underline;
+            }
             .stylists {
                 background:whitesmoke;
                 box-shadow: 1px 3px 3px $inpitari-dark;
