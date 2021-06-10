@@ -199,7 +199,7 @@ body {
       font-size: 1.5em;
       width: 100%; }
       .section02 .info-02 .information .info-inner .damage-info .info-table table .r-head {
-        background: red;
+        background: #a8bfaf;
         color: #fff;
         text-align: center;
         padding: 5px 10px;
@@ -212,7 +212,7 @@ body {
     color: #fff;
     width: 100%;
     margin: 0px 0 50px;
-    background: red;
+    background: #a8bfaf;
     padding: 10px 20px;
     font-size: 1.5em; }
   .section02 .info-02 .information .info-inner .damage-info2 .sect02-table {
