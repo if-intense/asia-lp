@@ -107,6 +107,32 @@ body {
   font-size: 1.5em;
 }
 
+.section01 .container .voices {
+  margin: 6vh auto;
+}
+
+.section01 .container .voices .stylists {
+  background: url(../images/white-concrete-wall.jpg) no-repeat;
+  -webkit-box-shadow: 1px 3px 3px #303540;
+          box-shadow: 1px 3px 3px #303540;
+  margin: 4vh auto;
+}
+
+.section01 .container .voices .stylists h5 {
+  font-size: 1.25em;
+  font-style: italic;
+}
+
+.section01 .container .voices .stylists p {
+  font-size: 1.75em;
+  font-weight: bold;
+}
+
+.section01 .container .voices .stylists blockquote {
+  padding: 10px;
+  background: rgba(66, 66, 66, 0.3);
+}
+
 .section01 .intro-text-out {
   padding: 0 20px;
   font-size: 1.5em;
@@ -730,6 +756,9 @@ body {
   .section06 .to-links p a {
     font-size: 0.9em;
   }
+  .section01 .container .voices blockquote {
+    font-size: 0.9em;
+  }
 }
 
 @media (max-width: 768px) {
@@ -747,6 +776,9 @@ body {
   }
   .section01 .container .intro-text h4 {
     font-size: 1.5em;
+  }
+  .section01 .container .voices blockquote {
+    font-size: 0.9em;
   }
   .section02 .info-01 .key-ingredient .ingredient h3 {
     font-size: 1.24em;
@@ -855,6 +887,26 @@ body {
   }
   .section01 .container .intro-text h4 {
     font-size: 1.1em;
+  }
+  .section01 .voices .reverse div:nth-child(1) {
+    -webkit-box-ordinal-group: 3;
+        -ms-flex-order: 2;
+            order: 2;
+  }
+  .section01 .voices .reverse div:nth-child(2) {
+    -webkit-box-ordinal-group: 2;
+        -ms-flex-order: 1;
+            order: 1;
+  }
+  .section01 .voices blockquote {
+    font-size: 0.9em;
+  }
+  .section01 .voices .profile-pic {
+    margin: 20px auto;
+  }
+  .section01 .voices .profile-pic img {
+    -webkit-box-shadow: 1px 3px 3px #5e5e5e;
+            box-shadow: 1px 3px 3px #5e5e5e;
   }
   .section01 .intro-text-out {
     font-size: 1em;

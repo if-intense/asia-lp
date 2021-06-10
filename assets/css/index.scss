@@ -107,6 +107,27 @@ body {
                 }
             }
         }
+        .voices {
+            margin:6vh auto;
+            .stylists {
+                background:url(../images/white-concrete-wall.jpg) no-repeat;
+                box-shadow: 1px 3px 3px $inpitari-dark;
+                margin:4vh auto;
+                h5 {
+                    font-size:1.25em;
+                    font-style: italic;
+                }
+                p {
+                    font-size:1.75em;
+                    font-weight:bold;
+                    // font-style: italic;
+                }
+                blockquote {
+                    padding:10px;
+                    background:rgba(66,66,66,0.3);
+                }
+            }
+        }
     }
     .intro-text-out {
         padding:0 20px;
@@ -737,6 +758,15 @@ body {
             }
         }
     }
+    .section01 {
+        .container {
+            .voices {
+                blockquote {
+                    font-size: 0.9em;
+                }
+            }
+        }
+    }
     
     // .section01 {
     //     .container {
@@ -799,6 +829,11 @@ body {
                 }
                 h4 {
                     font-size:1.5em;
+                }
+            }
+            .voices {
+                blockquote {
+                    font-size:0.9em;
                 }
             }
         }
@@ -984,6 +1019,28 @@ body {
                     font-size:1.1em;
                 }
             }
+        }
+        .voices {
+            .reverse {
+                div {
+                    &:nth-child(1) {
+                        order: 2;
+                    }
+                    &:nth-child(2) {
+                        order: 1;
+                    }
+                }
+            }
+            blockquote {
+                font-size:0.9em;
+            }
+            .profile-pic {
+                margin:20px auto;
+                img {
+                    box-shadow: 1px 3px 3px $inpitari-gray;
+                }
+            }
+            
         }
         .intro-text-out {
             font-size:1em;
